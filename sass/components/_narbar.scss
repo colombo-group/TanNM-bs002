@@ -1,5 +1,8 @@
 /* narbar */
 
+.navbar-default .navbar-nav > li > a:hover{
+	background:#d45e5e;
+}
 .navbar{
 	background:#ffffff;
 	border:0px;
@@ -16,14 +19,11 @@
 				&{padding:40px 5px 10px 5px;;
 				font-size: 14px;}
 			}
+		&:hover{
+			background:#d45e5e;
+		}	
 		}
 	}
-	}
-	#active{
-		a{
-			color: #ffffff;
-		}
-		background:#d45e5e;
 	}
 
 @media screen and (max-width: 800px) {
