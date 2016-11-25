@@ -1,0 +1,46 @@
+/* narbar */
+
+.navbar{
+	background:#ffffff;
+	border:0px;
+	li{
+		padding:0px;
+		a{
+			text-transform: uppercase;
+			padding:40px 13px 10px 13px;
+			font-family: HelveticaLT;
+			font-size: 	16.5px;
+			color: #595959;
+			font-weight: normal;
+			@media screen and(max-width:480px){
+				&{padding:40px 5px 10px 5px;;
+				font-size: 14px;}
+			}
+		}
+	}
+	}
+	#active{
+		a{
+			color: #ffffff;
+		}
+		background:#d45e5e;
+	}
+
+@media screen and (max-width: 800px) {
+    .menu{
+    	.navbar-nav{
+    		margin: 0px;
+    		padding-left:15px;
+    	}
+    	border-top:1px solid #d0d0d0;
+    	padding:15px 0px;
+    	.navbar{
+    		li{
+    			display: inline-block;
+    			a:first-child{
+    				pading-left:0px;
+    			}
+    		}
+    	}
+    }
+}

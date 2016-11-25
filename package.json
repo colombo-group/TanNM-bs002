@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colombo-trainee/TanNM-bs002.git"
+  },
+  "author": "nguyen minh tan <nguyenminhtan893@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colombo-trainee/TanNM-bs002/issues"
+  },
+  "homepage": "https://github.com/colombo-trainee/TanNM-bs002#readme",
+  "devDependencies": {
+    "gulp-sass": "^2.3.2"
+  }
+}
