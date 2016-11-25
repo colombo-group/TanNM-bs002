@@ -76,7 +76,8 @@ footer {
       top: -50px; }
       @media screen and (max-width: 480px) {
         .about .title #bio {
-          top: -10px;
+          position: absolute;
+          top: -30px;
           width: 90px; } }
     .about .title .address h2 {
       font-family: cambria;
@@ -232,7 +233,9 @@ footer {
     .menu .navbar li {
       display: inline-block; }
       .menu .navbar li a:first-child {
-        pading-left: 0px; } }
+        pading-left: 0px; }
+      .menu .navbar li a {
+        padding: 15px 15px; } }
 
 @font-face {
   font-family: 'Lobster';
