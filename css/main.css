@@ -194,7 +194,10 @@ footer {
     text-transform: capitalize;
     padding-bottom: 10px; }
   .pofolios .pofolio {
-    margin-top: 30px; }
+    margin-top: 30px;
+    padding-right: 0px; }
+    .pofolios .pofolio img {
+      margin-right: 0px; }
   @media screen and (max-width: 720px) {
     .pofolios .pofolio {
       margin-bottom: 20px; } }
@@ -220,7 +223,16 @@ footer {
           padding: 15px 5px 15px 5px;
           font-size: 12px; } }
       .navbar li a:hover {
-        background: #d45e5e; }
+        background: #d45e5e;
+        color: #ffffff; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff; }
+
+#active {
+  background: #d45e5e; }
+  #active a {
+    color: #ffffff; }
 
 @media screen and (max-width: 800px) {
   .menu {
