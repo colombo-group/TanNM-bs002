@@ -53,6 +53,9 @@ footer {
         .re-skills p span {
           margin-right: 15px; } }
   @media screen and (max-width: 480px) {
+    .re-skills{
+      padding-left:10px; 
+    }
     .re-skills img {
       margin-left: 10px;
       max-width: 60%; }
@@ -119,7 +122,7 @@ footer {
     @media screen and (max-width: 480px) {
       .about .para {
         margin-top: 10px;
-        margin-left: 5px;
+        margin-left: 0px;
         font-size: 14px; } }
   .about .skills {
     padding-top: 40px; }
@@ -146,7 +149,8 @@ footer {
       top: -40px; }
     .about .re-contact {
       display: block;
-      margin-top: 40px; }
+      margin-top: 20px;
+      padding-left: 30px; }
       .about .re-contact a {
         margin-right: 10px; }
     .about .contact {
@@ -194,11 +198,10 @@ footer {
     text-transform: capitalize;
     padding-bottom: 10px; }
   .pofolios .pofolio {
-    margin-top: 30px;
-    padding-right: 0px; }
+    margin-top: 30px; }
     .pofolios .pofolio img {
-      margin-right: 0px; }
-  @media screen and (max-width: 720px) {
+      width: 100%; }
+  @media screen and (max-width: 480px) {
     .pofolios .pofolio {
       margin-bottom: 20px; } }
 
