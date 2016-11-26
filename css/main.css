@@ -224,7 +224,7 @@ footer {
       @media screen and (max-width: 480px) {
         .navbar li a {
           padding: 15px 5px 15px 5px;
-          font-size: 12px; } }
+          font-size: 10px; } }
       .navbar li a:hover {
         background: #d45e5e;
         color: #ffffff; }
